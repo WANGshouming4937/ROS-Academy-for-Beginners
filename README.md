@@ -44,7 +44,7 @@
 1. 克隆或下载ROS-Academy-for-Beginners教学包到工作空间的`/src`目录下，例如 `~/catkin_ws/src`
 ```sh
 $ cd ~/catkin_ws/src
-$ git clone -b melodic https://github.com/DroidAITech/ROS-Academy-for-Beginners.git
+$ git clone -b noetic https://github.com/DroidAITech/ROS-Academy-for-Beginners.git
 ```
 
 2. 安装教学包所需的依赖
@@ -105,7 +105,7 @@ roslaunch robot_sim_demo robot_spawn.launch
 第二步，新开终端，启动slam
 
 ```
-roslaunch slam_sim_demo gampping_demo.launch
+roslaunch slam_sim_demo gmapping_demo.launch
 ```
 
 第三步，新开终端，启动navigation
